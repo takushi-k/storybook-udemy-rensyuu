@@ -25,7 +25,7 @@ export default function Task({
           readOnly={true}
           name="title"
           placeholder="Input Title"
-          style={{ backgroundColor: 'red' }}
+          style={{ backgroundColor: 'blue' }}
         />
       </label>
       {state !== 'TASK_ARHIVED' && (
