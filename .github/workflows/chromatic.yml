@@ -9,7 +9,7 @@ jobs:
   test:
     # Operating System
     runs-on: ubuntu-latest
-    environment: storybook-auto-build
+    environment: storybook-auto-build2
     # Job steps
     steps:
       - uses: actions/checkout@v4
