@@ -9,6 +9,7 @@ export default {
   title: 'TaskList',
   decorators: [(story) => <div style={{ padding: '3rem' }}>{story()}</div>],
   tags: ['autodocs'],
+  excludeStories: /.*MockedState$/,
 }
 
 export const MockedState = {
